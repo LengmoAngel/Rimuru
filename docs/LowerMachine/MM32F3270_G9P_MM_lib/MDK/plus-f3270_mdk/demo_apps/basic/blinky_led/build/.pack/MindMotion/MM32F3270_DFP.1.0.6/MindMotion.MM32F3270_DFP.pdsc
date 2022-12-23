@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package schemaVersion="1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+    <vendor>MindMotion</vendor>
+    <url>http://www.mindmotion.com.cn/Download/MDK_KEIL/</url>
+    <name>MM32F3270_DFP</name>
+    <description>MindMotion MM32F3270 Series Device Support, Drivers and Examples</description>
+    <releases>
+		<release version="1.0.6" date="2022-04-18">
+             Release version of MM32F3270 Device Family Pack.
+		</release>
+    </releases>
+
+
+    <devices>
+        <!-- generated, do not modify this section! -->
+
+        <family Dfamily="MM32F3270 Series" Dvendor="MindMotion:132">
+            <processor Dcore="Cortex-M3" DcoreVersion="r1p0" Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000" />
+
+            <description>
+MM32F3270 Series
+            </description>
+
+
+            <!-- ************************  Subfamily 'MM32F3273E'  **************************** -->
+            <subFamily DsubFamily="MM32F3273E">
+            <description>
+Subfamily: MM32F3273E
+
+Frequency: 120MHz
+Memory: 256 kB Flash, 96 kB RAM
+Communication: up to 8 x UART, 3 x SPI, 2 x I2C,3 x I2S, USB_OTG, CAN, up to 1 x SDIO
+Analog : ADC, COMP
+power saving mode:stop, sleep, and standby mode
+Other: RTC
+            </description>
+                <device Dname="MM32F3273E6P">
+                    <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+                    <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273E7P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x40000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x18000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_256.FLM" start="0x08000000" size="0x40000" default="1" />
+                </device>
+                <device Dname="MM32F3273E7P">
+                    <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+                    <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273E7P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x40000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x18000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_256.FLM" start="0x08000000" size="0x40000" default="1" />
+                </device>
+
+                <device Dname="MM32F3273E8P">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+                    <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273E8P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x40000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x18000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_256.FLM" start="0x08000000" size="0x40000" default="1" />
+                </device>
+                <device Dname="MM32F3273E9P">
+                    <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+                    <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273E7P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x40000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x18000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_256.FLM" start="0x08000000" size="0x40000" default="1" />
+                </device>
+            </subFamily>
+            <!-- ************************  Subfamily 'MM32F3273G'  **************************** -->
+            <subFamily DsubFamily="MM32F3273G">
+            <description>
+Subfamily: MM32F3273G
+
+Frequency: 120MHz
+Memory: 512 kB Flash, 128 kB RAM
+Communication: up to 8 x UART, 3 x SPI, 2 x I2C,3 x I2S, USB_OTG, CAN, up to 1 x SDIO
+Analog : ADC, DAC, COMP
+power saving mode:stop, sleep, and standby mode
+Other: RTC
+            </description>
+                <device Dname="MM32F3273GAQ">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+        <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273GAQ"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x80000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x20000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_512.FLM" start="0x08000000" size="0x80000" default="1" />
+                </device>
+                <device Dname="MM32F3273G6P">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+        <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273G6P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x80000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x20000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_512.FLM" start="0x08000000" size="0x80000" default="1" />
+                </device>
+                <device Dname="MM32F3273G7P">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+        <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273G7P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x80000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x20000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_512.FLM" start="0x08000000" size="0x80000" default="1" />
+                </device>
+
+                <device Dname="MM32F3273G8P">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+        <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273G8P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x80000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x20000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_512.FLM" start="0x08000000" size="0x80000" default="1" />
+                </device>
+                <device Dname="MM32F3273G9P">
+                <processor Dfpu="0" Dmpu="0" Dendian="Little-endian" Dclock="120000000"/>
+        <compile header="Device/MM32F327x/Include/mm32_device.h"  define="MM32F3273G9P"/>
+                    <debug svd="SVD/MM32F3270.svd" />
+                    <memory id="IROM1" start="0x08000000" size="0x80000" startup="1" default="1" />
+                    <memory id="IRAM1" start="0x20000000" size="0x20000" init="0" default="1" />
+                    <algorithm name="Flash/MM32F3270_512.FLM" start="0x08000000" size="0x80000" default="1" />
+                </device>
+
+            </subFamily>
+
+        </family>
+    </devices>
+
+
+  <conditions>
+    <condition id="Compiler ARMCC">
+    <require Tcompiler="ARMCC"/>
+    </condition>
+
+
+    <condition id="ARMCM3 CMSIS">
+      <description>ARMCM3 CMSIS processor and device specific Startup files</description>
+        <require Cclass="CMSIS" Cgroup="CORE"/>
+        <require Dvendor="MindMotion:132"  Dname="MM32F327*"/>
+    </condition>
+
+
+  </conditions>
+
+<components>
+
+                 <!-- Cortex-M Device Startup -->
+    <component Cclass="Device" Cgroup="Startup" Cversion="1.0.0" condition="ARMCM3 CMSIS">
+      <description>System Startup for MindMotion MM32F3270 Series devices</description>
+      <files>
+        <file category="header"  name="Device/MM32F327x/Include/mm32_device.h"/>
+        <file category="sourceC" name="Device/MM32F327x/Source/system_mm32f327x.c" attr="config"  version="1.0.0"/>
+        <file category="sourceAsm" name="Device/MM32F327x/Source/KEIL_StartAsm/startup_mm32f327x_keil.s" attr="config" version="1.0.0" condition="Compiler ARMCC"/>
+      </files>
+    </component>
+
+        <component Cclass="Board" Cgroup="Samples" Csub="LED" Cversion="1.0.0" condition="ARMCM3 CMSIS">
+      <description>Toggle for MindMotion MM32F3270 board</description>
+      <files>
+        <file category="header"  name="Boards/MBF3270_BoardReg/RegSample/GPIO_Toggle/HARDWARE/LED/led.h"/>
+        <file category="sourceC"  name="Boards/MBF3270_BoardReg/RegSample/GPIO_Toggle/HARDWARE/LED/led.c" attr="config"  version="1.0.0"/>
+        <file category="sourceC" name="Boards/MBF3270_BoardReg/RegSample/GPIO_Toggle/USER/main.c" attr="config"  version="1.0.0"/>
+      </files>
+    </component>
+
+</components>
+
+   <examples>
+    <example name="MM32_MBF3270xx_Board GPIO LED blinky" doc="README.TXT" folder="Boards/MBF3270_BoardReg/RegSample/GPIO_Toggle">
+        <description>MM32_MBF3270xx_Board Blinky example</description>
+        <board name="MM32_MBF3270xx_Board" vendor="MindMotion"/>
+        <project>
+            <environment name="uv" load="KEILPRJ/GPIO_Toggle.uvprojx"/>
+        </project>
+        <attributes>
+            <component Cclass="CMSIS"     Cgroup="CORE"/>
+            <component Cclass="Device"    Cgroup="Startup"/>
+            <category>Getting Started</category>
+        </attributes>
+    </example>
+  </examples>
+
+ <boards>
+    <board vendor="MindMotion" name="MM32_MBF3270xx_Board" revision="Ver 1.0" >
+      <description>MindMotion MM32_MBF3270xx_Board Development Board</description>
+            <book category="manual" name="Documents/boards/f3270Reference.pdf" title="MM32_MBF3270  Manual"/>
+      <mountedDevice    deviceIndex="0" Dvendor="MindMotion:132" Dname="MM32F3277G9P"/>
+      <compatibleDevice deviceIndex="0" Dvendor="MindMotion:132" DsubFamily="MM32F3273E"/>
+      <compatibleDevice deviceIndex="0" Dvendor="MindMotion:132" DsubFamily="MM32F3273G"/>
+      <compatibleDevice deviceIndex="0" Dvendor="MindMotion:132" DsubFamily="MM32F3277E"/>
+      <compatibleDevice deviceIndex="0" Dvendor="MindMotion:132" DsubFamily="MM32F3277G"/>
+
+
+
+      <feature type="XTAL"      n="8000000"/>
+      <feature type="PWR"       n="5"              name="USB Powered"/>
+      <feature type="PWR"       n="3"  m="5"       name="External Supply"/>
+      <feature type="Button"    n="1"              name="Push-buttons: Reset"/>
+      <feature type="LED"       n="2"              name="LEDs: Power, One user"/>
+      <debugInterface adapter="JTAG/SW" connector="20 pin JTAG (0.1 inch connector)"/>
+    </board>
+  </boards>
+
+
+</package>

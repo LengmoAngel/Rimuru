@@ -1,0 +1,401 @@
+{
+  "name": "project",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "application",
+        "files": [
+          {
+            "path": "../board_init.c"
+          },
+          {
+            "path": "../board_init.h"
+          },
+          {
+            "path": "../clock_init.c"
+          },
+          {
+            "path": "../clock_init.h"
+          },
+          {
+            "path": "../main.c"
+          },
+          {
+            "path": "../pin_init.c"
+          },
+          {
+            "path": "../pin_init.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "device",
+        "files": [
+          {
+            "path": "../../../../device/hal_device_registers.h"
+          },
+          {
+            "path": "../../../../device/mdk/startup_mm32f3273g.s"
+          },
+          {
+            "path": "../../../../device/mm32f3273g_features.h"
+          },
+          {
+            "path": "../../../../device/mm32f3273g.h"
+          },
+          {
+            "path": "../../../../device/system_mm32f3273g.c"
+          },
+          {
+            "path": "../../../../device/system_mm32f3273g.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "drivers",
+        "files": [
+          {
+            "path": "../../../../device/drivers/hal_adc.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_adc.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_common.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_comp.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_comp.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_dac.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_dac.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_dma_request.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_dma.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_dma.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_exti.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_exti.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_flash.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_flash.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_fsmc.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_fsmc.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_gpio.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_gpio.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_i2c.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_i2c.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_i2s.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_i2s.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_iwdg.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_iwdg.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_power.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_power.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_pwr.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_pwr.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_rcc.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_rcc.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_rtc.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_rtc.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_sdio.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_sdio.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_spi.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_spi.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_syscfg.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_syscfg.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_tim.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_tim.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_uart.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_uart.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_usb_bdt.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_usb.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_usb.h"
+          },
+          {
+            "path": "../../../../device/drivers/hal_wwdg.c"
+          },
+          {
+            "path": "../../../../device/drivers/hal_wwdg.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "MM32F3273G9P",
+  "packDir": ".pack/MindMotion/MM32F3270_DFP.1.0.6",
+  "miscInfo": {
+    "uid": "8d226355b99464b959fa96e4fddf731a"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "../../../../device/mdk/linker/mm32f3273g_flash.scf",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x80000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "pyOCD",
+      "uploadConfig": {
+        "bin": "",
+        "targetName": "mm32f3277g9p",
+        "baseAddr": "0x08000000",
+        "speed": "4M",
+        "config": ".eide/target 1.pyocd.yaml"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        },
+        "pyOCD": {
+          "bin": "",
+          "targetName": "mm32f3277g9p",
+          "baseAddr": "0x08000000",
+          "speed": "4M",
+          "config": ".eide/target 1.pyocd.yaml"
+        },
+        "STLink": {
+          "bin": "",
+          "proType": "SWD",
+          "resetMode": "SWrst",
+          "runAfterProgram": true,
+          "speed": 4000,
+          "address": "0x08000000",
+          "elFile": "None",
+          "optionBytes": ".eide/target 1.st.option.bytes.ini",
+          "otherCmds": ""
+        },
+        "OpenOCD": {
+          "bin": "",
+          "target": "stm32f1x",
+          "interface": "stlink",
+          "baseAddr": "0x08000000"
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../../../device/CMSIS/Include",
+          "../../../../device/drivers",
+          "..",
+          "../../../../device",
+          ".cmsis/include",
+          "RTE/_Target 1",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "BRD_PLUS_F3270",
+          "MM32F3273G9P"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
